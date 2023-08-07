@@ -41,8 +41,7 @@ class _DictionarySearchState extends State<DictionarySearch>
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              width: 380,
+            Expanded(
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: ListView.builder(
